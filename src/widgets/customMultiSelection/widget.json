@@ -41,6 +41,45 @@
       "type": "text",
       "defaultValue": "Object atributes we want to return, it has to be space separated or empty if we want the whole object",
       "bond": "expression"
+    },
+    {  
+       "label":"Required",
+       "name":"required",
+       "type":"boolean",
+       "defaultValue":true,
+       "bond":"expression"
+    },
+    {  
+       "label":"Label",
+       "name":"label",
+       "type":"text",
+       "defaultValue":"Multi-selector",
+       "bond":"interpolation"
+    },
+    {  
+       "label":"Label hidden",
+       "name":"labelHidden",
+       "type":"boolean",
+       "defaultValue":false,
+       "bond":"constant"
+    }
+    {  
+       "label":"Label Position",
+       "name":"labelPosition",
+       "type":"choice",
+       "defaultValue":"top",
+       "choiceValues":[  
+          "left",
+          "top"
+       ],
+       "bond":"constant"
+    },    
+    {  
+       "label":"Label Width",
+       "name":"labelWidth",
+       "type":"integer",
+       "defaultValue":4,
+       "bond":"constant"
     }
   ],
   "assets": [
